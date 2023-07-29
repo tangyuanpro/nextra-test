@@ -1,15 +1,63 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+    "*": {
+        "type": "page"
+      },
+    "index": {
+      "title": "首页",
+      "type": "page"
+    },
+    "junxun": {
+      "title": "军训",
+      "type": "page"
+    },
+    "7": {
+        "title": "七年级",
+        "type": "menu",
+        "items": {
+          "7a": {
+            "title": "七年级上册",
+            "href": "/7/7a"
+          },
+          "7b": {
+            "title": "七年级下册",
+            "href": "/7/7b"
+          }
+        }
+      },
+    "8": {
+        "title": "八年级",
+        "type": "menu",
+        "items": {
+          "8a": {
+            "title": "八年级上册",
+            "href": "/8/8a"
+          },
+          "8b": {
+            "title": "八年级下册",
+            "href": "/8/8b"
+          }
+        }
+      },
+    "9": {
+        "title": "九年级",
+        "type": "menu",
+        "items": {
+          "9a": {
+            "title": "九年级上册",
+            "href": "/9/9a"
+          },
+          "9b": {
+            "title": "九年级下册",
+            "href": "/9/9b"
+          }
+        }
+      },
+    "graduation": {
+        "title": "毕业",
+        "type": "page"
+    },
+    "ending": {
+      "title": "后记",
+      "type": "page"
+    }
   }
-}
